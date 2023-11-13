@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href='table.css' rel='stylesheet' type='text/css'>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="table.js"></script>
+    <title>Table</title>
+</head>
+<body>
+    <div id="page">
+        <div id="description">点击填充你的镜像桌面</div>
+        <div id="format">
+          <div id="button_3x4">3x4</div>
+          <div id="button_4x3">4x3</div>
+          <div id="button_4x4">4x4</div>
+          <div id="button_4x5">4x5</div>
+          <div id="button_5x4">5x4</div>
+          <div id="button_5x5">5x5</div>
+        </div>
+        <div id="input_container"></div>
+        <div id="button">得到结果</div>
+        <div id="output_container"></div>
+    </div>
+
+        
+    <div id="MetaUnlock" class="tab-pane fade active show" role="tabpanel">
+        <div class="clearfix"></div>
+        <div class="card mb-2 ">
+            <h5 class="card-header">能力解锁</h5>
+            <div class="table-responsive">
+                <table
+                    class="table table-hover table-striped mb-0 filters tablesorter tablesorter-default tablesorter5ffd68c71a1ca"
+                    role="grid">
+                    <thead>
+                        <tr role="row" class="tablesorter-headerRow">
+                            <th data-column="0" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0"
+                                scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none"
+                                aria-label="名字: No sort applied, activate to apply an ascending sort"
+                                style="user-select: none;">
+                                <div class="tablesorter-header-inner">名字</div>
+                            </th>
+                            <th data-column="1" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0"
+                                scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none"
+                                aria-label="名字: No sort applied, activate to apply an ascending sort"
+                                style="user-select: none;">
+                                <div class="tablesorter-header-inner">名字</div>
+                            </th>
+                            <th data-column="2" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0"
+                                scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none"
+                                aria-label="Unlock 1: No sort applied, activate to apply an ascending sort"
+                                style="user-select: none;">
+                                <div class="tablesorter-header-inner">Unlock 1</div>
+                            </th>
+                            <th data-column="3" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0"
+                                scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none"
+                                aria-label="Unlock 2: No sort applied, activate to apply an ascending sort"
+                                style="user-select: none;">
+                                <div class="tablesorter-header-inner">Unlock 2</div>
+                            </th>
+                            <th data-column="4" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0"
+                                scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none"
+                                aria-label="Unlock 3: No sort applied, activate to apply an ascending sort"
+                                style="user-select: none;">
+                                <div class="tablesorter-header-inner">Unlock 3</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody aria-live="polite" aria-relevant="all">
+                        <tr role="row">
+                            <td><img
+                                    src="./imgs/LakeRerollButtonHighlight.webp">
+                            </td>
+                            <td>Reroll 刷新</td>
+                            <td>任意难度 3</td>
+                            <td>精华难度 6</td>
+                            <td>裂隙难度 8</td>
+                        </tr>
+                        <tr role="row">
+                            <td><img
+                                    src="./imgs/LakeSkipButtonHighlight.webp">
+                            </td>
+                            <td>Skip 跳过</td>
+                            <td>任意难度 5</td>
+                            <td>先驱难度 6</td>
+                            <td>神龛难度 8</td>
+                        </tr>
+                        <tr role="row">
+                            <td><img
+                                    src="./imgs/LakeBanishButtonHighlight.webp">
+                            </td>
+                            <td>Banish 排除</td>
+                            <td>任意难度 8</td>
+                            <td>军团难度 8</td>
+                            <td>超越难度 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        <p>
+            当同时出现3个垃圾映像时，连续使用3次排除，会自动刷新，并且之后至少会有一个特殊映像
+        </p>
+        <p>
+            卡兰德映像和天堂映像经常有人购买
+        </p>
+    <table border="1">
+  
+        <tr>
+            <th>T0</th>
+            <th>卡兰德映像</th>
+            <th>让你主动放入戒指或项链进行折射
+                难度越高加成越高
+                难度8以上2倍加成
+            </th>
+        </tr>
+        <tr>
+            <th>T1</th>
+            <th>暴君</th>
+            <th>几只boss</th>
+        </tr>
+        <tr>
+            <th>T2</th>
+            <th>能量</th>
+            <th>一只特定属性的boss</th>
+        </tr>
+        <tr>
+            <th>T2</th>
+            <th>纷争映像</th>
+            <th>几只特定属性的流亡者</th>
+        </tr>
+        <tr>
+            <th>T3</th>
+            <th>赛季玩法映像</th>
+            <th>先驱、精华、保险箱、天堂(10倍经验)</th>
+        </tr>
+        <tr>
+            <th>垃圾</th>
+            <th>垃圾映像</th>
+            <th>冰、火、电、物理、混沌</th>
+        </tr>
+    </table>
+
+    <p>© Made by Davling 2022</p> 
+</body>
+</html>
